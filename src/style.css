@@ -1,5 +1,16 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: blue;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 20%;
+  height: 400px;
+  align-items: center;
+  font-size: 60px;
+  padding: 5px;
+  border-radius: 15px;
 }
